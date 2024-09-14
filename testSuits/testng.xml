@@ -6,10 +6,5 @@
       <class name="com.Automations.Tests.LoginTest"/>
     </classes>
   </test>
-  
-  <test thread-count="5" name="APIautomation Test">
-    <classes>
-      <class name="com.Automations.Tests.APIautomation"/>
-    </classes>
-  </test>  <!-- Test -->
+   <!-- Test -->
 </suite> <!-- Suite -->

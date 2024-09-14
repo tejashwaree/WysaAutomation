@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-14T00:10:33 IST" name="Suite" finished-at="2024-09-14T00:10:45 IST" duration-ms="12409">
+  <suite started-at="2024-09-14T09:28:55 IST" name="Suite" finished-at="2024-09-14T09:29:04 IST" duration-ms="9140">
     <groups>
     </groups>
-    <test started-at="2024-09-14T00:10:33 IST" name="Login Test" finished-at="2024-09-14T00:10:43 IST" duration-ms="9958">
+    <test started-at="2024-09-14T09:28:55 IST" name="Login Test" finished-at="2024-09-14T09:29:04 IST" duration-ms="9140">
       <class name="com.Automations.Tests.LoginTest">
-        <test-method signature="validloginTest(java.lang.String,java.lang.String)[pri:1, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T00:10:33 IST" name="validloginTest" data-provider="getValidData" finished-at="2024-09-14T00:10:38 IST" duration-ms="4708" status="PASS">
+        <test-method signature="validloginTest(java.lang.String,java.lang.String)[pri:1, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T09:28:55 IST" name="validloginTest" data-provider="getValidData" finished-at="2024-09-14T09:28:59 IST" duration-ms="4540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validloginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T00:10:38 IST" name="tearDown" finished-at="2024-09-14T00:10:38 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T09:28:59 IST" name="tearDown" finished-at="2024-09-14T09:28:59 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validloginTest(java.lang.String,java.lang.String)[pri:1, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T00:10:38 IST" name="validloginTest" data-provider="getValidData" finished-at="2024-09-14T00:10:40 IST" duration-ms="2319" status="PASS">
+        <test-method signature="validloginTest(java.lang.String,java.lang.String)[pri:1, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T09:28:59 IST" name="validloginTest" data-provider="getValidData" finished-at="2024-09-14T09:29:01 IST" duration-ms="2039" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validloginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T00:10:40 IST" name="tearDown" finished-at="2024-09-14T00:10:40 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T09:29:01 IST" name="tearDown" finished-at="2024-09-14T09:29:02 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T00:10:40 IST" name="invalidLoginTest" data-provider="getInvalidData" finished-at="2024-09-14T00:10:43 IST" duration-ms="2235" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T09:29:02 IST" name="invalidLoginTest" data-provider="getInvalidData" finished-at="2024-09-14T09:29:04 IST" duration-ms="1891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,19 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T00:10:43 IST" name="tearDown" finished-at="2024-09-14T00:10:43 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automations.Tests.LoginTest@4afcd809]" started-at="2024-09-14T09:29:04 IST" name="tearDown" finished-at="2024-09-14T09:29:04 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Automations.Tests.LoginTest -->
     </test> <!-- Login Test -->
-    <test started-at="2024-09-14T00:10:43 IST" name="APIautomation Test" finished-at="2024-09-14T00:10:45 IST" duration-ms="2383">
-      <class name="com.Automations.Tests.APIautomation">
-        <test-method signature="getMethod()[pri:0, instance:com.Automations.Tests.APIautomation@66d18979]" started-at="2024-09-14T00:10:43 IST" name="getMethod" finished-at="2024-09-14T00:10:45 IST" duration-ms="2379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMethod -->
-      </class> <!-- com.Automations.Tests.APIautomation -->
-    </test> <!-- APIautomation Test -->
   </suite> <!-- Suite -->
 </testng-results>
