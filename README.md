@@ -12,7 +12,6 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 - Project Structure 
 - Writing Test Case
   - Login Test Cases
-  - API Test Case
 - Creating TestNG XML File
 - Running Tests
 - Checking Test Reports
@@ -67,22 +66,6 @@ Download and install Eclipse IDE from the official Eclipse website. Choose the "
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>2.11.0</version>
-    </dependency>
-
-    <!-- Rest Assured for API Testing -->
-    <dependency>
-        <groupId>io.rest-assured</groupId>
-        <artifactId>rest-assured</artifactId>
-        <version>5.3.1</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- Hamcrest for assertions in Rest Assured -->
-    <dependency>
-        <groupId>org.hamcrest</groupId>
-        <artifactId>hamcrest-library</artifactId>
-        <version>2.2</version>
-        <scope>test</scope>
     </dependency>
     </dependencies>
 3. Save the pom.xml file and update the Maven project by right-clicking on the project in Eclipse and selecting Maven > Update Project.
@@ -163,34 +146,6 @@ package com.Automations.Tests;
 	}
     }
 
-## API Test Case
-1. Create a Java class in the com.Automations.Tests package named Apiautomation.java.
-
-2. Add the following code for API testing:
-    package com.Automations.Tests;
-    import static io.restassured.RestAssured.given;
-    import java.io.File;
-    import java.io.IOException;
-
-    import org.apache.commons.io.FileUtils;
-    import org.testng.annotations.Test;
-
-    import io.restassured.RestAssured;
-    import io.restassured.module.jsv.JsonSchemaValidator;
-
-        public class APIautomation {
-
-	    @Test
-	    public void getMethod() throws IOException {
-		String filepath = "C:\\Users\\tejum\\eclipse-workspace1\\WysaAutomations\\src\\test\\expectedJsonSchema.txt";
-		//read json schema from text file
-		String jsonSchema = FileUtils.readFileToString(new File(filepath), "UTF-8");
-		RestAssured.baseURI= "https://jsonplaceholder.typicode.com";
-		//check for 200 Ok status code and json schema structure
-		String res = given().log().all()
-				.when().get("posts")
-				.then().assertThat().statusCode(200).body(JsonSchemaValidator.matchesJsonSchema(jsonSchema)).assertThat().toString();
-			} }
 
 ## Creating TestNG XML File
 1. Create a TestNG XML file named testng.xml in the root directory of your project.
@@ -205,12 +160,7 @@ package com.Automations.Tests;
                 <class name="WysaAutomations.Tests.LoginTest"/>
             </classes>
         </test>
-  
-        <test thread-count="5" name="APIautomation Test">
-            <classes>
-                <class name="WysaAutomations.Tests.APIautomation"/>
-            </classes>
-        </test>  <!-- Test -->
+
         </suite> <!-- Suite -->
 
 ## Running Tests
