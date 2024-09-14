@@ -1,7 +1,7 @@
 
-# Web Application Automation and API Automation Project
+# Web Application Automation Project
 
-Welcome to the Selenium Automation Framework repository! This guide will walk you through the process of setting up a new Selenium framework project from scratch using Maven, including dependency management, project configuration.
+Welcome to the Selenium Automation Framework repository! This guide will walk you through the process of setting up a new Selenium framework project from scratch using Maven, including dependency management, and project configuration.
 
 
 ## Table of content
@@ -15,6 +15,7 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 - Creating TestNG XML File
 - Running Tests
 - Checking Test Reports
+
 ## Prerequisites
 Before you start, ensure you have the following installed:
 
@@ -219,9 +220,11 @@ Eclipse will import the project, read the pom.xml file, and set up the project a
 - Click OK.
 This action updates the Maven dependencies and configurations in Eclipse.
 
+
 6. Run Tests
     1. Locate Test Classes:
         - Navigate to the src/test/java directory within the Project Explorer view.
     2. Run Tests:
         - Right-click on the test class or test suite you want to run.
         - Select Run As > TestNG Test (or JUnit Test if using JUnit).
+
