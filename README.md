@@ -5,6 +5,7 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 
 
 ## Table of content
+- Description
 - Prerequisites 
 - Setting Up the Environment 
 - Creating the Maven Project 
@@ -15,6 +16,17 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 - Creating TestNG XML File
 - Running Tests
 - Checking Test Reports
+
+## Description: Selenium Automation for Login Functionality
+
+Project Overview: This project aims to automate the login functionality of a web application using Selenium WebDriver. This automation framework is designed to ensure the login process's reliability, efficiency, and accuracy through comprehensive test scenarios. By leveraging Selenium for browser automation, Java for programming, and integrating the Page Object Model with TestNG, this project aims to deliver a robust and maintainable test suite.
+
+Tools and Technologies:
+
+1. Selenium WebDriver: Used for automating the web browser interaction and driving the test scripts.
+2. Java: The programming language used for writing the automation scripts, ensuring compatibility and scalability.
+3. Page Object Model (POM): Framework pattern employed to enhance code maintainability and readability by encapsulating page elements and actions in separate classes.
+4. TestNG: Testing framework utilized for managing and executing test cases, generating test reports, and providing various configuration options
 
 ## Prerequisites
 Before you start, ensure you have the following installed:
